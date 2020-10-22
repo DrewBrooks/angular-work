@@ -1,1 +1,3 @@
-<p>content-list works!</p>
+<app-content-card *ngFor="let content of contentList; last as isLast "  [content]="content" [class.is-last]="isLast">
+
+</app-content-card>

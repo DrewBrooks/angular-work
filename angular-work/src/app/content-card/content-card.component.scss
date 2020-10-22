@@ -1,0 +1,12 @@
+:host{
+  width: 400px;
+  display: block;
+  margin: 24px auto;
+  border: 3px dashed #000000;
+}
+:host.is-last{
+  border: 2px solid #000000;
+}
+img{
+  width: 300px;
+}

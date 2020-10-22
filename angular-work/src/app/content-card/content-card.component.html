@@ -1,9 +1,11 @@
-<div *ngFor="let content of contentList.items; index as i;">
+
   <h2>{{content.title}}</h2>
   <h4>{{content.author}}</h4>
   <h4>{{content.body}}</h4>
-  <img src="{{content.imgUrl}}"/>
-  <div *ngFor="let tag of content.tags">
-    <div>{{tag}}</div>
+  <h4 *ngIf="content.type">{{content.type}}</h4>
+  <img src="{{content.imgUrl}}" (click)="displayID()" *ngIf="content.imgUrl"/>
+  <div *ngIf="content.tags">
+    <div *ngFor="let tag of content.tags">
+      <div>{{tag}}</div>
+    </div>
   </div>
-</div>

@@ -1,6 +1,7 @@
-import {Content} from '@angular/compiler/src/render3/r3_ast';
+import {Content} from './content-interface';
 
-class ContentList {
+
+export class ContentList {
   // @ts-ignore
   // tslint:disable-next-line:variable-name
   private _items: Content[];

@@ -1,1 +1,9 @@
-<p>content-card works!</p>
+<div *ngFor="let content of contentList.items; index as i;">
+  <h2>{{content.title}}</h2>
+  <h4>{{content.author}}</h4>
+  <h4>{{content.body}}</h4>
+  <img src="{{content.imgUrl}}"/>
+  <div *ngFor="let tag of content.tags">
+    <div>{{tag}}</div>
+  </div>
+</div>

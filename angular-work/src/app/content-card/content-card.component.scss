@@ -2,11 +2,24 @@
   width: 400px;
   display: block;
   margin: 24px auto;
-  border: 3px dashed #000000;
+  border: 3px dashed;
 }
-:host.is-last{
-  border: 2px solid #000000;
-}
+//:host.is-last{
+//  border: 2px solid;
+//}
+
 img{
   width: 300px;
+}
+
+.MMORPG{
+  border-color: aqua;
+}
+
+.RPG{
+  border-color: red;
+}
+
+.FPS{
+  border-color: green;
 }

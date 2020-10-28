@@ -19,7 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1d86f94-5a73-4a0c-85e3-2867524d37f6" name="Default Changelist" comment="" />
+    <list default="true" id="e1d86f94-5a73-4a0c-85e3-2867524d37f6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/content-card/content-card.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content-card/content-card.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/content-list/content-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content-list/content-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/content-list/content-list.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content-list/content-list.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/content-list/content-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content-list/content-list.component.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,6 +90,8 @@
       <workItem from="1603276305973" duration="1614000" />
       <workItem from="1603324346237" duration="3111000" />
       <workItem from="1603339042262" duration="5114000" />
+      <workItem from="1603796191967" duration="18199000" />
+      <workItem from="1603917979055" duration="1553000" />
     </task>
     <servers />
   </component>
@@ -126,5 +135,9 @@
       <screen x="-1920" y="-16" width="1920" height="1050" />
     </state>
     <state x="-1262" y="222" key="git4idea.branch.GitSmartOperationDialog/-1920.-16.1920.1050/0.0.1920.1050/0.-1080.1920.1050@-1920.-16.1920.1050" timestamp="1603323998322" />
+    <state x="-1297" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1603809905119">
+      <screen x="-1920" y="-16" width="1920" height="1050" />
+    </state>
+    <state x="-1297" y="211" width="672" height="678" key="search.everywhere.popup/-1920.-16.1920.1050/0.0.1920.1050/0.-1080.1920.1050@-1920.-16.1920.1050" timestamp="1603809905119" />
   </component>
 </project>

@@ -1,11 +1,14 @@
 
-  <h2>{{content.title}}</h2>
+  <h2 appHoverStyle [style]='"textDecoration"'>{{content.title}}</h2>
   <h4>{{content.author}}</h4>
   <h4>{{content.body}}</h4>
   <h4 *ngIf="content.type">{{content.type}}</h4>
-  <img src="{{content.imgUrl}}" (click)="displayID()" *ngIf="content.imgUrl"/>
+  <div *ngIf="content.imgUrl; else elseBlock">
+    <img src="{{content.imgUrl}}" (click)="displayID()" *ngIf="content.imgUrl"/>
+  </div>
+  <ng-template #elseBlock><img src="https://actionreactionmma.com/wp-content/uploads/2017/04/default-image-620x600.jpg" (click)="displayID()"/></ng-template>
   <div *ngIf="content.tags">
     <div *ngFor="let tag of content.tags">
-      <div>{{tag}}</div>
+      <div appHoverStyle [style]='"fontWeight"'>{{tag}}</div>
     </div>
   </div>

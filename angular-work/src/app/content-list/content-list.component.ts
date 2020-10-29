@@ -41,7 +41,7 @@ export class ContentListComponent implements OnInit {
       tags: ['Video-Game', 'Puzzle']
     },
     {
-      id: 2,
+      id: 3,
       title: 'Maplestory',
       body: 'An amazing game that has gone downhill, but will always be remembered as a once great game.',
       author: 'Nexon',
@@ -50,13 +50,21 @@ export class ContentListComponent implements OnInit {
       tags: ['Video-Game', 'MMORPG', '2D']
     },
     {
-      id: 2,
+      id: 4,
       title: 'The Legend of Zelda: The Wind Waker',
       body: 'A contender for one of the best Nintendo games.',
       author: 'Nintendo',
-      imgUrl: 'https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/gamecube_12/SI_GCN_TheLegendOfZeldaTheWindWaker_image1600w.jpg',
       type: 'RPG',
       tags: ['Video-Game', 'Adventure', 'Exploration']
+    },
+    {
+      id: 5,
+      title: 'Neverwinter',
+      body: 'Neverwinter is a free-to-play massively multiplayer online role-playing game developed by Cryptic Studios and released by Perfect World Entertainment for Microsoft Windows in 2013, Xbox One in 2015, and PlayStation 4 in 2016..',
+      author: 'Cryptic Studios',
+      imgUrl: 'https://cdn.mmohuts.com/wp-content/uploads/2015/03/NW_604x423.jpg',
+      type: 'MMORPG',
+      tags: ['Video-Game', 'D&D', 'Combat']
     }
     ];
     this.searchWord = '';

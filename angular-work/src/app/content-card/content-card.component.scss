@@ -4,9 +4,9 @@
   margin: 24px auto;
   border: 3px dashed;
 }
-//:host.is-last{
-//  border: 2px solid;
-//}
+:host.is-last{
+  border: 3px solid;
+}
 
 img{
   width: 300px;

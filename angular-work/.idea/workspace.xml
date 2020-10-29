@@ -22,9 +22,10 @@
     <list default="true" id="e1d86f94-5a73-4a0c-85e3-2867524d37f6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/content-card/content-card.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content-card/content-card.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/content-card/content-card.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content-card/content-card.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/content-card/content-card.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content-card/content-card.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/content-list/content-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content-list/content-list.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/content-list/content-list.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content-list/content-list.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/content-list/content-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content-list/content-list.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +92,7 @@
       <workItem from="1603324346237" duration="3111000" />
       <workItem from="1603339042262" duration="5114000" />
       <workItem from="1603796191967" duration="18199000" />
-      <workItem from="1603917979055" duration="1553000" />
+      <workItem from="1603917979055" duration="12080000" />
     </task>
     <servers />
   </component>
@@ -111,10 +112,11 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1155" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1602125532649">
-      <screen x="-1920" y="-16" width="1920" height="1040" />
+    <state x="-1155" y="222" key="#com.intellij.ide.util.MemberChooser" timestamp="1603932357305">
+      <screen x="-1920" y="-16" width="1920" height="1050" />
     </state>
     <state x="-1155" y="220" key="#com.intellij.ide.util.MemberChooser/-1920.-16.1920.1040/0.0.1920.1040/0.-1080.1920.1040@-1920.-16.1920.1040" timestamp="1602125532649" />
+    <state x="-1155" y="222" key="#com.intellij.ide.util.MemberChooser/-1920.-16.1920.1050/0.0.1920.1050/0.-1080.1920.1050@-1920.-16.1920.1050" timestamp="1603932357305" />
     <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1603324332097">
       <screen x="-1920" y="-16" width="1920" height="1050" />
     </state>

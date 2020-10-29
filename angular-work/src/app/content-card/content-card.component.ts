@@ -13,7 +13,7 @@ export class ContentCardComponent implements OnInit {
   }
   ngOnInit(): void {
   }
-  displayID(){
+  displayID(): void{
     console.log(this.content.id);
   }
 }

@@ -2,17 +2,17 @@
 <button (click)="submit(contentTitle.value)">Check Game List</button>
 <p>{{this.searchWord}}</p>
 
-<app-content-card class="MMORPG" *ngFor="let content of contentList | typePipe:'MMORPG'; last as isLast "  [content]="content" [class.is-last]="isLast"
-                  [class.contentSelected]="contentTitle.value == content.title">
+<app-content-card class="MMORPG" *ngFor="let content of contentList | typePipe:'MMORPG'; last as isLast ; first as isFirst"  [content]="content" [class.is-last]="isLast"
+                  [class.contentSelected]="contentTitle.value == content.title" appBorderStyle [position]="isFirst || isLast">
 
 </app-content-card>
 
-<app-content-card class="RPG" *ngFor="let content of contentList | typePipe:'RPG'; last as isLast "  [content]="content" [class.is-last]="isLast"
-                  [class.contentSelected]="contentTitle.value == content.title">
+<app-content-card class="RPG" *ngFor="let content of contentList | typePipe:'RPG'; last as isLast ; first as isFirst"  [content]="content" [class.is-last]="isLast"
+                  [class.contentSelected]="contentTitle.value == content.title" appBorderStyle [position]="isFirst || isLast">
 
 </app-content-card>
 
-<app-content-card class="FPS" *ngFor="let content of contentList | typePipe:'FPS'; last as isLast "  [content]="content" [class.is-last]="isLast"
-                  [class.contentSelected]="contentTitle.value == content.title">
+<app-content-card class="FPS" *ngFor="let content of contentList | typePipe:'FPS'; last as isLast ; first as isFirst"  [content]="content" [class.is-last]="isLast"
+                  [class.contentSelected]="contentTitle.value == content.title" appBorderStyle [position]="isFirst || isLast">
 
 </app-content-card>

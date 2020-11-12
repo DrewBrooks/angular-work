@@ -1,3 +1,5 @@
+<app-create-content (newContentEvent)="addContentToList($event)"></app-create-content>
+
 <input #contentTitle>
 <button (click)="submit(contentTitle.value)">Check Game List</button>
 <p>{{this.searchWord}}</p>

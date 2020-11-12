@@ -20,10 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1d86f94-5a73-4a0c-85e3-2867524d37f6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/content-card/content-card.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content-card/content-card.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/content-card/content-card.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content-card/content-card.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/content-card/content-card.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content-card/content-card.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/content-list/content-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content-list/content-list.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/content-list/content-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content-list/content-list.component.ts" afterDir="false" />
@@ -48,11 +47,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Midterm" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="ts.external.directory.path" value="D:\Desktop\School\Year 3\Semester 1\MobileWebsiteDev\angular-work\angular-work\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -92,7 +92,10 @@
       <workItem from="1603324346237" duration="3111000" />
       <workItem from="1603339042262" duration="5114000" />
       <workItem from="1603796191967" duration="18199000" />
-      <workItem from="1603917979055" duration="12080000" />
+      <workItem from="1603917979055" duration="12301000" />
+      <workItem from="1604452019642" duration="697000" />
+      <workItem from="1604532553186" duration="12394000" />
+      <workItem from="1605094154940" duration="8397000" />
     </task>
     <servers />
   </component>
@@ -112,11 +115,19 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1155" y="222" key="#com.intellij.ide.util.MemberChooser" timestamp="1603932357305">
+    <state x="-1092" y="420" key="#TSLint" timestamp="1605153392042">
+      <screen x="-1920" y="-16" width="1920" height="1050" />
+    </state>
+    <state x="-1092" y="420" key="#TSLint/-1920.-16.1920.1050/0.0.1920.1050/0.-1080.1920.1050@-1920.-16.1920.1050" timestamp="1605153392042" />
+    <state x="-1155" y="222" key="#com.intellij.ide.util.MemberChooser" timestamp="1605154555398">
       <screen x="-1920" y="-16" width="1920" height="1050" />
     </state>
     <state x="-1155" y="220" key="#com.intellij.ide.util.MemberChooser/-1920.-16.1920.1040/0.0.1920.1040/0.-1080.1920.1040@-1920.-16.1920.1040" timestamp="1602125532649" />
-    <state x="-1155" y="222" key="#com.intellij.ide.util.MemberChooser/-1920.-16.1920.1050/0.0.1920.1050/0.-1080.1920.1050@-1920.-16.1920.1050" timestamp="1603932357305" />
+    <state x="-1155" y="222" key="#com.intellij.ide.util.MemberChooser/-1920.-16.1920.1050/0.0.1920.1050/0.-1080.1920.1050@-1920.-16.1920.1050" timestamp="1605154555398" />
+    <state x="-1180" y="264" key="FileChooserDialogImpl" timestamp="1605153900165">
+      <screen x="-1920" y="-16" width="1920" height="1050" />
+    </state>
+    <state x="-1180" y="264" key="FileChooserDialogImpl/-1920.-16.1920.1050/0.0.1920.1050/0.-1080.1920.1050@-1920.-16.1920.1050" timestamp="1605153900165" />
     <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1603324332097">
       <screen x="-1920" y="-16" width="1920" height="1050" />
     </state>
@@ -133,6 +144,10 @@
       <screen x="-1920" y="-16" width="1920" height="1050" />
     </state>
     <state width="1877" height="285" key="GridCell.Tab.0.right/-1920.-16.1920.1050/0.0.1920.1050/0.-1080.1920.1050@-1920.-16.1920.1050" timestamp="1603324332096" />
+    <state x="461" y="170" key="SettingsEditor" timestamp="1604538062144">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="170" key="SettingsEditor/-1920.-16.1920.1050/0.0.1920.1050/0.-1080.1920.1050@0.0.1920.1050" timestamp="1604538062144" />
     <state x="-1262" y="222" key="git4idea.branch.GitSmartOperationDialog" timestamp="1603323998322">
       <screen x="-1920" y="-16" width="1920" height="1050" />
     </state>

@@ -16,4 +16,6 @@ export class ContentCardComponent implements OnInit {
   displayID(): void{
     console.log(this.content.id);
   }
+
+
 }

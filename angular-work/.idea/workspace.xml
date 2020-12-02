@@ -20,12 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1d86f94-5a73-4a0c-85e3-2867524d37f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/helper-files/contentDb.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/content-card/content-card.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content-card/content-card.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/content-card/content-card.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content-card/content-card.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/content-card/content-card.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content-card/content-card.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/content-list/content-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content-list/content-list.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/content-list/content-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content-list/content-list.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +33,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -93,6 +98,8 @@
       <workItem from="1603339042262" duration="5114000" />
       <workItem from="1603796191967" duration="18199000" />
       <workItem from="1603917979055" duration="12080000" />
+      <workItem from="1606527544128" duration="1200000" />
+      <workItem from="1606930182249" duration="2653000" />
     </task>
     <servers />
   </component>

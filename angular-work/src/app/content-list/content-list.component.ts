@@ -10,6 +10,7 @@ import {ContentServiceService} from '../services/content-service.service';
 
 
 export class ContentListComponent implements OnInit {
+  newContent: any;
 
   contentList: Content[];
   constructor(private contentService: ContentServiceService) {
@@ -33,4 +34,21 @@ export class ContentListComponent implements OnInit {
     });
   }
 
+  getTheGamesList(): void{
+    this.contentService.getContent().subscribe(cl => {
+      // content came back! maybe log the length
+      this.contentList = cl;
+    });
+  }
+
+  save(newGameFromChild: Content): void {
+    this.contentList.push(newGameFromChild);
+    // We need to clone the array for the pipe to work
+    this.contentList = Object.assign([], this.contentList);
+  }
+
+  updateTheList(message: string): void{
+    console.log(message);
+    this.getTheGamesList();
+  }
 }

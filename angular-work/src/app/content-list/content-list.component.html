@@ -1,3 +1,4 @@
+<app-create-component (newContentEvent)="save($event)" ></app-create-component>
 <input #contentTitle>
 <button (click)="submit(contentTitle.value)">Check Game List</button>
 <p>{{this.searchWord}}</p>

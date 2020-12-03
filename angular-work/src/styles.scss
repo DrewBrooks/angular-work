@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+
+// Custom Theming for Angular Material
+@import '~@angular/material/theming';
+@include mat-core();
+
+
+$angular-work-primary: mat-palette($mat-blue-grey);
+$angular-work-accent: mat-palette($mat-pink, A200, A100, A400);
+$angular-work-warn: mat-palette($mat-red);
+$angular-work-theme: mat-light-theme((
+  color: (
+    primary: $angular-work-primary,
+    accent: $angular-work-accent,
+    warn: $angular-work-warn,
+  )
+));
+
+@include angular-material-theme($angular-work-theme);
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

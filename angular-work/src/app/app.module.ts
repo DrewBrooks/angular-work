@@ -8,6 +8,16 @@ import { TypePipePipe } from './type-pipe.pipe';
 import { HoverStyleDirective } from './hover-style.directive';
 import { BorderStyleDirective } from './border-style.directive';
 import { MessagesComponent } from './messages/messages.component';
+import {CreateComponentComponent, CreateContentDialog} from './create-component/create-component.component';
+import {HttpClientModule} from '@angular/common/http';
+import {HttpClientInMemoryWebApiModule} from 'angular-in-memory-web-api';
+import {InMemoryDataService} from './services/in-memory-data.service';
+import {FormsModule} from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatButtonModule} from '@angular/material/button';
+import {MatInputModule} from '@angular/material/input';
+import {MatDialog, MatDialogModule} from '@angular/material/dialog';
+
 
 @NgModule({
   declarations: [
@@ -18,10 +28,23 @@ import { MessagesComponent } from './messages/messages.component';
     HoverStyleDirective,
     HoverStyleDirective,
     BorderStyleDirective,
-    MessagesComponent
+    MessagesComponent,
+    CreateComponentComponent,
+    CreateContentDialog
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule,
+    HttpClientInMemoryWebApiModule.forRoot(
+      InMemoryDataService, {
+        dataEncapsulation: false,
+        delay: 1000
+      }),
+    FormsModule,
+    BrowserAnimationsModule,
+    MatButtonModule,
+    MatInputModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]

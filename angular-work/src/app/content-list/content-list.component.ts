@@ -12,7 +12,7 @@ import {ContentServiceService} from '../services/content-service.service';
 export class ContentListComponent implements OnInit {
   newContent: any;
 
-  contentList: Content[];
+  contentList: Content[] = [];
   constructor(private contentService: ContentServiceService) {
     this.searchWord = '';
   }

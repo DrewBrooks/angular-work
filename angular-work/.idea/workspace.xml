@@ -20,22 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1d86f94-5a73-4a0c-85e3-2867524d37f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/create-component/create-component-dialog.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/create-component/create-component.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/create-component/create-component.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/create-component/create-component.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/create-component/create-component.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/services/in-memory-data.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/services/in-memory-data.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/content-list/content-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content-list/content-list.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/content-list/content-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content-list/content-list.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/services/content-service.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/content-service.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

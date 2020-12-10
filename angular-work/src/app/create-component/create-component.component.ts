@@ -14,14 +14,19 @@ export class CreateComponentComponent implements OnInit {
 
   @Output() newContentEvent = new EventEmitter<Content>();
   newContent: any;
-  constructor(private contentService: ContentServiceService,private messages: MessageService, private http: HttpClient,  public dialog: MatDialog) {
-    this.newContent ={
+  // tslint:disable-next-line:max-line-length
+  constructor(private contentService: ContentServiceService, private messages: MessageService, private http: HttpClient,  public dialog: MatDialog) {
+    this.newContent = {
       author: '', body: '', imgUrl: '', tags: [], title: '', type: ''
-    }
+    };
   }
 
   addContentDialog(): void{
-    const contentDialog = this.dialog.open(CreateContentDialog)
+    const contentDialog = this.dialog.open(CreateContentDialog);
+    contentDialog.afterClosed().subscribe(content => {
+      this.newContent = content;
+      this.addContent();
+    });
   }
 
   ngOnInit(): void {
@@ -32,9 +37,9 @@ export class CreateComponentComponent implements OnInit {
     console.log('Event Triggered', this.newContent.title);
 
     this.contentService.addContent(this.newContent).subscribe(serverGame => {
-      console.log("Added the game to the list", serverGame);
-      this.messages.clear()
-      this.messages.add("Content added successfully: " + serverGame.title)
+      console.log('Added the game to the list', serverGame);
+      this.messages.clear();
+      this.messages.add('Content added successfully: ' + serverGame.title);
       this.newContentEvent.emit(serverGame);
     });
   }
@@ -44,6 +49,7 @@ export class CreateComponentComponent implements OnInit {
   selector: 'app-create-component-dialog',
   templateUrl: './create-component-dialog.component.html',
 })
+// tslint:disable-next-line:component-class-suffix
 export class CreateContentDialog {
   newContent: any;
   constructor(public dialogRef: MatDialogRef<CreateContentDialog>) {

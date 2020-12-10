@@ -17,6 +17,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
 import {MatInputModule} from '@angular/material/input';
 import {MatDialog, MatDialogModule} from '@angular/material/dialog';
+import {MatCardModule} from '@angular/material/card';
+import { ContentDetailViewComponent } from './content-detail-view/content-detail-view.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import {RouterModule} from '@angular/router';
 
 
 @NgModule({
@@ -30,7 +34,9 @@ import {MatDialog, MatDialogModule} from '@angular/material/dialog';
     BorderStyleDirective,
     MessagesComponent,
     CreateComponentComponent,
-    CreateContentDialog
+    CreateContentDialog,
+    ContentDetailViewComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
@@ -44,7 +50,13 @@ import {MatDialog, MatDialogModule} from '@angular/material/dialog';
     BrowserAnimationsModule,
     MatButtonModule,
     MatInputModule,
-    MatDialogModule
+    MatDialogModule,
+    MatCardModule,
+    RouterModule.forRoot([
+      { path: 'content/:id', component: ContentDetailViewComponent },
+      { path: 'content', component: ContentListComponent },
+      { path: '**', component: PageNotFoundComponent }
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]

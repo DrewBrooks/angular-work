@@ -1,0 +1,19 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title appHoverStyle [style]='"textDecoration"'>{{content.title}}</mat-card-title>
+    <mat-card-subtitle>{{content.author}}</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <h4>{{content.body}}</h4>
+    <h4 *ngIf="content.type">{{content.type}}</h4>
+    <div *ngIf="content.imgUrl; else elseBlock">
+      <img src="{{content.imgUrl}}"  *ngIf="content.imgUrl"/>
+    </div>
+    <ng-template #elseBlock><img src="https://actionreactionmma.com/wp-content/uploads/2017/04/default-image-620x600.jpg"/></ng-template>
+    <div *ngIf="content.tags">
+      <div *ngFor="let tag of content.tags">
+        <div appHoverStyle [style]='"fontWeight"'>{{tag}}</div>
+      </div>
+    </div>
+  </mat-card-content>
+</mat-card>

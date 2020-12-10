@@ -31,4 +31,8 @@ export class ContentServiceService {
     this.messages.add('Content retrieved!');
     return this.http.get<Content[]>('api/content');
   }
+
+  getContentDetail(id: number): Observable<Content>{
+    return this.http.get<Content>('api/content/' + id);
+  }
 }
